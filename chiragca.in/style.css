@@ -1,0 +1,1129 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+/*BOOTSTRAP STYLING*/
+/**Navbar*/
+.navbar{
+    height: 90px;
+}
+.navbar .bg-light .navbar-light .navbar-nav{
+    background-color: #fff;
+
+}
+.navbar #logo1{
+    margin-left:100px;
+    width:150px;
+    height:50px;
+}
+.navbar .navbar-nav{
+    margin-left:180px;
+}
+
+
+.navbar .nav-item .dropdown-menu{
+    background-color: #111;
+ 
+    opacity: 0.5;
+}
+
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    color:#fff;
+    font-size: 1em;
+    font-weight: 700;
+    padding-top:15px;
+    
+    
+}
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color: #0a2c2a;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color:#11a58f;
+}
+
+
+.header hr{
+  
+  
+  
+  color:#0F8A84;
+ 
+  height:4px;
+  border-width:0
+}
+.myImg{
+    width:150px;
+    height:70px;
+}
+.tophead{
+    
+    background-color: black;
+    color:white;
+    height:30px;
+    width:100%;
+    padding-left:70px;
+    font-weight: 200;
+    font-size: 0.9em;
+   
+}
+.tophead a{
+    text-decoration: none;
+    padding-left:30px;
+    font-size: 1em;
+    font-weight: 200;
+}
+.myImg1{
+  width:150px;
+  height:50px;
+  margin: 20px;
+  margin-left:8%;
+}
+
+
+
+  .banner{
+    margin: 0;
+    
+  }
+  .banner button{
+      margin-top:-100px;
+  }
+  .banner1{
+  
+    text-align: center;
+    padding: 40px 15%;
+    height: 300px;
+   
+  }
+  .banner1 h4{
+    color: #42B4B4;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .banner1 h3{
+    font-size: 1.8em;
+    font-weight: 600;
+    
+  } 
+  .banner1 p{
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .banner1 hr{
+    height: 1px;
+    width:10%;
+  }
+  .banner1 a{
+    background-color: #4ABBC4;
+    margin-top: 30px;
+    color:white;
+    top:50px;
+    padding:20px 30px;
+  }
+  .banner1 a:hover{
+    background-color: white;
+    color: #4ABBC4;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .intro{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    background-image: url('https://chiragca.in/images/Better-than-the-best-bg.jpg');
+    
+    
+  }
+  .intro hr{
+    position: absolute;
+    top:60px;
+    left:45%;
+    width:7%;
+    color: #2BCAB2;
+    height: 2.3px;
+  }
+  .intro img{
+    width:100%;
+    height:500px;
+    
+  }
+.intro .myImg img{
+  position: absolute;
+  top: 155px;
+  left: 35%;
+  width:27%;
+  height:45%;
+  background-attachment: fixed;
+
+}
+  .intro h2{
+    position: absolute;
+    top: 20px;
+    left: 1%;
+    color: white;
+    width: 100%;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  .intro .text-block {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: #4ABBC4;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 15%;
+    height: 50%;
+  }
+ .text-block ul {
+    position: absolute;
+    top:40px;
+    
+  }
+  .text-block ul li{
+    padding-top:20px;
+    list-style: none;
+  }
+
+  .text-block ul li:hover{
+    color:#111;
+  }
+.intro .contentInfo h3{
+  position: absolute;
+  top: 155px;
+  left: 65%;
+  color: #65acb3;
+  font-size: 2em;
+  font-weight: 500;
+  
+}
+.intro .contentInfo ul{
+  position: absolute;
+  top: 40%;
+  left: 62%;
+}
+
+.intro .contentInfo ul li{
+  list-style: none;
+  color: white;
+  padding:7px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+  .container1 {
+    padding: 2em;
+  }
+  .v-slider-frame {
+    border: 1px solid #4BB3FD;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+  }
+  ul.v-slides {
+    list-style-type: none;
+    transform: translateY(50px);
+    padding:0;
+  }
+  .v-slide {
+    font-size: 24px;
+    line-height: 50px;
+    color: #4BB3FD;
+  }
+  
+  .bond{
+    
+   position: relative;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height:500px;
+
+  }
+
+.bond hr{
+    position: absolute;
+    top:3%;
+    left:45%;
+  width: 10%;
+  height: 3px;
+  color: #0a2c2a;
+}
+
+.bond h3{
+  text-align: center;
+}
+
+.imgBx .Box{
+ 
+  margin:0;
+  display: flex;
+  
+ 
+  margin-left:10%;
+  margin-bottom: 4%;
+  padding-top:10px;
+  
+}
+.imgBx .Box img{
+  
+  padding-left:20px;
+  width:30%;
+}
+
+
+
+.bond a{
+  position: absolute;
+  background-color: #50b9b4;
+   top:80%;
+    left:40%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1em;
+    font-weight: 900;
+    height:10%;
+    width: 20%;
+    color: #fff;
+    text-decoration: none;
+    
+    
+    margin-top:25%;
+    
+    
+}
+.inform{
+  position: relative;
+  height: 30%;
+  margin-top: 30%;
+
+}
+.inform img{
+  
+  width:100%;
+  height: 30%;
+}
+.inform h3{
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.inform hr{
+  position:absolute;
+  width:9%;
+  top: 70px;
+  left: 44%;
+  color:#18b4ac;
+  background-color:#18b4ac;
+  height:2px;
+  border-width:0
+  
+}
+.inform h4{
+  position: absolute;
+  top: 100px;
+  left: 35%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+}
+.inform input{
+  position: absolute;
+  top: 160px;
+  left: 23%;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 20px;
+  color:#111;
+  width:45%;
+  height: 50px;
+  border: none;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+.inform a{
+  position: absolute;
+  top: 160px;
+  left: 20%;
+  background-color: #4ABBC4;
+  color:white;
+  
+  margin-left:45%;
+  height: 50px;
+  padding:12px;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.testimonials{
+  position: relative;
+  background-color: #fff;
+  height:500px;
+  
+}
+.testimonials h3{
+  position: absolute;
+  top: 40px;
+    left:40%;
+    color: #111;
+   
+    padding-right: 20px;
+}
+
+.testimonials hr{
+  position:absolute;
+  width:9%;
+  top: 70px;
+  left: 44%;
+  color:#0F8A84;
+  background-color:#0F8A84;
+  height:2px;
+  border-width:0
+}
+
+
+.row{
+  
+  padding-left:5%;
+  margin-top:7%;
+  display: flex;
+}
+
+.banner2{
+  display: flex;
+}
+
+.testi-in-content{
+  
+  
+  margin-top:10px;
+
+  width:45%;
+ 
+  height:250px;
+  
+  margin-left:2%;
+  
+  text-align: center;
+  background-color: #EDF1F1;
+
+}
+
+
+.testi-in-content h1{
+  text-align: left;
+  margin-top:20px;
+  width:80%;
+  text-transform: uppercase;
+  color: #50b9b4;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.testi-in-content p{
+  font-size: 14px;
+  text-align: left;
+  color: #262626;
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.testimonials a{
+  position: absolute;
+  top: 80%;
+  left:45%;
+  background-color: #18b4ac;
+  color:white;
+  text-align: center;
+  margin-left:0;
+  width:12%;
+  height: 65px;
+  border-radius: 2px;;
+ padding-top: 25px;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.dataform{
+  position: relative;
+  background-color: #f5f5f5;
+  display: flex;
+  height: 500px;
+}
+
+.dataform .text{
+  position: absolute;
+  left:100px;
+  top:100px;
+}
+.dataform .text h4{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #111;
+
+}
+.dataform .text hr{
+    position:absolute;
+    
+    top:25px;
+    height: 3%;
+    width:20%;
+    color:#145753;
+}
+
+
+.dataform .text p{
+    top:40px;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top:25px;
+}
+.dataform .form1{
+  position: absolute;
+  left:50%;
+  top: 50px;
+  
+  width:500px;
+  height:350px;
+  background-color: #fff;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.form1 h5{
+  position: absolute;
+  left:20px;
+  top:10px;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.form1 ul{
+    margin-top: 20px;
+}
+.form1 ul li{
+    
+    list-style: none;
+    padding-top:40px;
+}
+
+.form1 ul li #fullname{
+    display: flex;
+
+}
+.form1 ul li input {
+    outline: 0;
+    border-width: 0 0 0.1px;
+    border-color: rgb(117, 111, 111);
+    width:160px;
+  }
+  input:focus {
+    border-color: #111;
+  }
+.wrapper {
+ 
+  position: absolute;
+  
+}
+.wrapper #name{
+  
+  
+ height:20px;
+
+}
+
+
+
+
+.form1 a{
+  position: absolute;
+  top: 250px;
+  left:30px;
+ 
+  background-color: #42B4B4;
+  color:white;
+  
+ 
+  width:32%;
+  height: 20%;
+  padding:30px;
+  font-size:0.8em;
+  font-weight: 300;
+}
+
+.contactus{
+  position: relative;
+  height: 150px;
+  background-color: #d1d8d8;
+}
+.contactus h4{
+  position: absolute;
+  top:70px;
+  left:100px;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.contactus a{
+  position: absolute;
+  top:50px;
+  left:65%;
+ 
+  background-color: #0F8A84;
+  color:white;
+  text-decoration: none;
+  padding-top:15px;
+  padding-left:50px;
+  width:20%;
+  height: 50%;
+  
+  font-size:1.5em;
+  font-weight: 500;
+}
+.footer{
+  position: relative;
+  background-color: #262626;
+  height: 390px;
+  
+}
+.footer .iconinfo{
+  position: absolute;
+  top:9%;
+  left:6%;
+}
+.footer .iconinfo ul li img{
+  width:25%;
+  height: 25%;
+}
+.footer .iconinfo ul li a{
+  color: white;
+  text-decoration: none;
+}
+/*
+.footer .iconinfo img{
+  width: 25%;
+  height: 25%;
+}
+*/
+.footer .iconinfo ul li{
+  padding:0;
+}
+.footer .iconinfo ul li p{
+ 
+  
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+}
+.footer .iconinfo p span{
+  color: #0F8A84;
+}
+
+#mail1{
+  padding-top:0;
+}
+.footer .iconinfo ul li #visitors{
+  position: absolute;
+
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.footer .iconinfo h4{
+  position: absolute;
+  
+  color:white;
+  background-color:#0F8A84;
+  font-size: 1.2em;
+  font-weight: 300;
+  width:150px;
+  height: 35px;
+  letter-spacing: 10px;
+  padding:10px;
+
+}
+
+.footer .services{
+  position: absolute;
+  top:10%;
+  left:35%;
+  color:white
+}
+
+.footer .services ul li h4{
+  color:#18b4ac;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.footer .services ul{
+
+}
+.footer .services ul li{
+  list-style: none;
+  left:10px;
+  padding-top: 12px;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.footer .services ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer .navigate{
+  position: absolute;
+  left:53%;
+  color: white;
+  top:10%;
+}
+.footer .navigate ul li h4{
+  color:#18b4ac;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.footer .navigate ul li{
+  list-style: none;
+  left:10px;
+  padding-top: 12px;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.footer .navigate ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons{
+  position: absolute;
+  top:12%;
+  left:68%;
+  
+  color:white;
+  display:block;
+}
+
+
+.icons h4{
+  color:#18b4ac;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width:20px;
+  height:20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.footer .icons .fa-facebook {
+  
+  
+  background: #3B5998;
+  color: white;
+ 
+ 
+}
+
+.fa-linkedin {
+  
+  background: #007bb5;
+  color: white;
+  
+ 
+}
+/*
+.icons p{
+  position: absolute;
+  top:80px;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.icons img{
+  position: absolute;
+  top:100px;
+  width:200%;
+  height: 200%;
+}
+.icons p #app{
+  position: absolute;
+  top:20px;
+}
+*/
+.icons ul{
+  position: absolute;
+  left:0;
+}
+.icons ul li{
+  
+  text-decoration: none;
+  list-style: none;
+  
+}
+.icons ul li img{
+  width:200px;
+  height:50px;
+}
+
+.icons ul li p{
+  font-size: 1em;
+  font-weight: 700;
+  padding-top:10px;
+  
+}
+
+.icons ul li #googleplay{
+  width:400px;
+  height:180px;
+}
+
+.poweredby{
+  background-color: #535050;
+  width:100%;
+  height: 40px;
+}
+.poweredby p{
+  padding:10px;
+  color:#fff;
+  padding-left:100px;
+  font-size: 1em;
+  font-weight: 300;
+  top:85%;
+  
+}
+.poweredby p span{
+  
+  color:#18b4ac;
+  
+  font-weight: 300;
+  top:85%;
+}
+
+
+
+
+/*Responsive Design*/
+
+@media(max-width: 767px) {
+
+  .navbar #logo1 {
+    margin-left: 0;
+    width: 150px;
+    height: 50px;
+}
+  
+  .banner1{
+    height: 380px;
+  }
+  .banner1 hr{
+    margin-left:40%;
+    width:20%;
+    height: 3px;
+    color:#145753;
+    background-color: #145753;
+    }
+  .carousel{
+    max-width: 100%;
+    
+  }
+ .imgBx{
+    left:0;
+
+ }
+  .imgBx .Box{
+    display: block;
+    margin: 0;
+    
+  /* padding-bottom: 30px; */
+  
+  }
+  #namespace{
+    display: block;;
+  }
+  
+  .dropdown-item:hover{
+    display: none;
+  }
+  .imgBx .Box img{
+    max-width: 100%;
+   width:100%;
+  padding-top: 20px;
+  
+
+  }
+  .intro {
+    position: relative;
+    display: block;
+    margin-top: 20%;
+    height:800px;
+    background-image: url(https://chiragca.in/images/Better-than-the-best-bg.jpg);
+}
+
+
+  .intro .text-block {
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #4ABBC4;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 0;
+    height: 0;
+  }
+  .intro .text-block ul{
+    text-justify: none;
+  }
+  .intro .myImg img{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    background-attachment: fixed;
+  }
+
+
+  .intro .contentInfo h3 {
+    position: absolute;
+    top: 67%;
+    left: 12%;
+    color: #65acb3;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+  .intro .contentInfo ul {
+    position: absolute;
+    top: 70%;
+    left: 6%;
+}
+.inform{
+  height: 300px;
+}
+.inform h3 {
+  position: absolute;
+  top: 40px;
+  left: 25%;
+  color: white;
+  /* padding-left: 20px; */
+  padding-right: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.inform h4 {
+  position: absolute;
+  top: 24%;
+  left: 14%;
+  color: white;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  font-weight: 700;
+}
+.inform input {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 20px;
+  color: #111;
+  width: 80%;
+  height: 10%;
+}
+.inform img {
+  width: 100%;
+  height: 100%;
+}
+.inform a {
+  position: absolute;
+  top: 65%;
+  left: -35%;
+  background-color: #4ABBC4;
+  color: white;
+  height: 12%;
+  width: 80%;
+  padding: 12px;
+  padding-left: 28%;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+.bond{
+  height: 2400px;
+  padding-bottom: 20%;
+}
+.bond a {
+  
+  background-color: #50b9b4;
+  color: white;
+  
+  /*padding:10px;*/
+ /* text-align: center;
+  margin-left: 30%;
+  font-size: 0.8em;
+  font-weight: 700;
+  height: 5px;
+  width: 40%;
+  */margin-top:500px;
+  height: 40px;
+  width:25%;
+  margin-left: 0;
+}
+
+.testimonials{
+  height: 700px;
+}
+.banner1 .row{
+  display:block ;
+  margin-top:20%;
+}
+.testi-in-content {
+  /* position: absolute; */
+  
+  bottom: 50px;
+  left:2%;
+  width: 90%;
+  height: 45%;
+  background: #fff;
+
+  /* padding: 25px 15px; */
+  /* margin-left: 55px; */
+  text-align: center;
+  background-color: #EDF1F1;
+}
+.testimonials p{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.testimonials h3{
+  position: absolute;
+  top:2%;
+  left:20%;
+  font-weight: 2em;
+  font-size: 500;
+  
+}
+.testimonials a {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  
+  width: 40%;
+  
+}
+.dataform .text {
+  position: absolute;
+  left: 9%;
+  top: 10%;
+}
+
+.dataform{
+  height: 700px;
+}
+.dataform .form1 {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  width: 80%;
+  height: 350px;
+  background-color: #fff;
+}
+.dataform .form1 ul li{
+  margin-left:0;
+}
+.dataform .text p{
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.contactus h4 {
+  position: absolute;
+  top: 70px;
+  left: 10%;
+  width: 80%;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.contactus{
+  height:250px;
+}
+.contactus a {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    
+    padding-top: 15px;
+    padding-left: 50px;
+    width: 60%;
+    height: 25%;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.footer {
+  position: relative;
+  background-color: #262626;
+  height: 1200px;
+  /* display: block; */
+}
+footer .iconinfo {
+  position: absolute;
+  top: 9%;
+  left: 3%;
+}
+.footer .services {
+  position: absolute;
+  top: 33%;
+  left: 3%;
+  color: white;
+}
+.footer .navigate {
+  position: absolute;
+  top: 55%;
+  left: 3%;
+  color: white;
+}
+.footer .icons {
+  position: absolute;
+  top: 75%;
+  left: 3%;
+  color: white;
+}
+
+.text-block{display:none;}
+}
+.poweredby {
+    background-color: #535050;
+    width: 100%;
+    height: 60px;
+}
+
+
+}
